@@ -1,0 +1,84 @@
+Streamlining Time Calculation in Warehouse Management: Leveraging ShipHero API and Google BigQuery Integration
+
+Client Background
+Client:
+A leading retail firm in the USA
+Industry Type:
+Retail
+Products & Services:
+Retail Solutions, Supply Chain, Warehouse Management
+Organization Size:
+100+
+The Problem
+The problem was to efficiently calculate the time taken by each personnel on their shifts in a warehouse management system.
+Data needed to be extracted from ShipHero API and processed to generate meaningful insights.
+There was a need for a web interface to provide user-friendly access to the data and allow for data filtering.
+There is a mapping issue in Python Script which occurred in December of 2022. Maybe due to the addition of another warehouse. This is an open issue and ShipHero is unable to provide any reliable solution for the same. [Issue has been highlighted below in the section of ‘’Known Issues’’]
+Our Solution
+Creating an API to Google BigQuery using a Python script deployed on Google Cloud.
+The Python script automated data extraction from ShipHero API, transformation, and loading into Google BigQuery.
+Google Data Studio was used to create a dashboard for reporting and visualization.
+Solution Architecture
+The solution involved two main components: a Python script and a web interface (Web App).
+The Python script utilized ShipHero API to fetch data and calculate personnel shift times. It then stored the processed data in Google BigQuery.
+The web interface allowed users to log in, apply filters to data tables fetched from BigQuery, and visualize the data.
+Google Cloud services were used for hosting the Python script and deploying the web app.
+Deliverables
+[GitHub Repositories URL:
+https://github.com/AjayBidyarthy/Jake-Brenner-API-to-google-big-query-to-google-data-studio
+.
+https://github.com/AjayBidyarthy/Jake-Brenner-frontend/tree/himanshu
+https://github.com/AjayBidyarthy/Jake-Brenner-frontend/tree/master
+Tech Stack
+Tools used
+Google API
+Beautifulsoup
+Numpy and Pandas
+Language/techniques used
+Python
+React JS
+Models used
+Django ORM Model
+Skills used
+Python
+Python Django
+React JS
+Databases used
+GCP BigQuery Database
+Web Cloud Servers used
+Google Cloud Platform (GCP)
+What are the technical Challenges Faced during Project Execution
+Accessing and understanding ShipHero API endpoints and data structures.
+Developing and deploying the Python script to run daily on Google Cloud Scheduler.
+Integrating and linking databases effectively.
+Handling and automating complex data manipulation and calculations.
+How the Technical Challenges were Solved
+Comprehensive research and analysis of the ShipHero API and its endpoints.
+The Python script was developed to handle data extraction, transformation, and loading tasks efficiently.
+Google Cloud services were used to automate the script and schedule daily runs.
+Collaboration and communication with the client to ensure the API data met the dashboard requirements.
+Project website url
+http://app.shiphero.com/
+Summarize
+Summarized: https://blackcoffer.com/
+This project was done by the Blackcoffer Team, a Global IT Consulting firm.
+Contact Details
+This solution was designed and developed by Blackcoffer Team
+Here are my contact details:
+Firm Name: Blackcoffer Pvt. Ltd.
+Firm Website: www.blackcoffer.com
+Firm Address: 4/2, E-Extension, Shaym Vihar Phase 1, New Delhi 110043
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+Previous article
+Efficient Database Design and Management: Streamlining Access and Integration for Partner Entity Management
+Next article
+Automated Orthopedic Case Report Generation: Harnessing Web Scraping and AI Integration
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

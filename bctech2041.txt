@@ -1,0 +1,52 @@
+Design and develop Jenkins shared library
+
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+SaaS, Products
+Organization Size:
+100+
+The Problem
+Create Jenkins shared library for the following:
+validate AWS AMI creation
+check if network rules exist in aws EC2
+check if the security group in aws EC2
+Our Solution
+We created a Jenkins shared library in which we are using AWS  ec2 describe-images command with the help of aws cli if an ami don’t exist than describe-images throws error
+We created a Jenkins shared library in which we are using aws ec2 describe-network-acls  for validating we were comparing input name with VPC
+We created a Jenkins shared library in which we are using aws ec2  describe-instances for validating we were checking input name with SecurityGroups group
+Deliverables
+Jenkins Libraries
+Tools used
+VS Code IDE
+Jenkins
+AWS
+Language/techniques used
+Grovvy
+Skills used
+Jenkins
+AWS Server
+Web Cloud Servers used
+AWS
+Project Snapshots
+Project Video
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+Design and develop retool app for wholecell.io and Asana data using their api’s
+Next article
+Design and develop PowerShell script
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

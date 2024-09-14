@@ -1,0 +1,56 @@
+Plaid Financial Analytics – A Data-Driven Dashboard to generate insights
+
+Client Background
+Client:
+A leading financial firm in the USA
+Industry Type:
+Finance
+Services:
+Financial Services
+Organization Size:
+100+
+The Problem
+Applying automation to Financial data coming from the Plaid platform that needs to be visualized in order to get better insights and metrics from data.
+Our Solution
+The intention was to create an automation tool that could consume the financial csv format data and perform preprocessing on that data and could directly present the insights on visually appealing dashboard.
+Initially the step was to create a tool/website that could consume the data and preprocess it and send it either directly to dashboard or into a database so the data could be safe and through the database the dashboard could be linked and updates accordingly.
+The data source for the tool was to be a manual entry therefore we created a website and hosted it on a cloud platform(Heroku) to make it available all the time for all the desired users. The processed data from this tool will be send to the Google big query database and our GBQ will be linked to the Google Data Studio for the insights presentation. Therefore as the data will keep on updating in the google big query accordingly the dashboard in our google data studio will gets updated.
+Solution Architecture
+Deliverables
+The final deliverable was the ready-to-use dashboard and website where the preprocessing of the data happens.
+Tools used
+Google Cloud platform – Google Big Query (Database)
+Google Data studio(Visualisation/Dashboard)
+Heroku Cloud(Hosting the web application)
+Language/techniques used
+Python
+Skills used
+Python programming
+Data analytics/Visualisation
+Google Big Query
+Databases used
+Google Big Query
+Web Cloud Servers used
+Heroku Cloud
+What are the technical Challenges Faced during Project Execution
+The project was easy to implement and the architecture was simple therefore no major challenges were encountered.
+Project Snapshots
+Project website url
+https://plaid-conversion.herokuapp.com/
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+Recommendation Engine for Insurance Sector to Expand Business in the Rural Area
+Next article
+An ETL tool to pull data from Shiphero to Google Bigquery Data Warehouse
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

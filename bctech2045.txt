@@ -1,0 +1,72 @@
+NER Task using BERT with data in XML-format
+
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+SaaS, Products
+Organization Size:
+100+
+The Problem
+The goal of this task is to create and implement a workflow that annotates People/Places/Organizations and assigns them a specific number (from a normdatabase). The NER-Task should be done by using Bert (NER-German
+https://huggingface.co/flair/ner-german
+or something similar).
+Our Solution
+The input to this first task is a text in XML-Format. It is important that the structuring text is not altered by the NER. This could be possible by tokenizing the XML-elements in a different/seperate way, to then run the NER with BERT and afterwards add the elements afterwards at the exact position where the initially were. The tags that were added by the NER than can be easily replaced with the required tags in the XML-format.
+Solution Architecture
+Input Data 🡪 XML Text Tokenization 🡪 NER Model 🡪 Replace NER Tags with XML Tags 🡪 Final Output
+Deliverables
+Python tool
+Documentation
+Installation
+Tools used
+VSCode For Python script
+Language/techniques used
+Python Programming Language
+Models used
+Named Entity Recognition (NER)
+FuzzyWuzzy
+tqdm
+Flair
+Pandas
+Skills used
+Data Loading
+Data Processing
+Data Restoring
+What are the technical Challenges Faced during Project Execution
+During the project execution, we faced the following challenges:
+Parsing of the input XML file.
+Predicting the Name, Place and Organization.
+Rearranging the XML file to its origin form with the predicted value.
+How the Technical Challenges were Solved
+To solve the technical challenges, we provided following solutions as follow:
+It was not possible by the beautiful soup library. So by using the logically function start index and end index we break the sentence.
+For predicting the NPO we used the flair ner-german model.
+To rearrange the file we used start index and end index function which can be split with a certain condition and we place the predicted value in it.
+Business Impact
+The client can know easily predict the Name, Place, and Organisation from XML containing file by using our python script model.
+Project Snapshots
+Fig. Input XML file
+Fig. Output XML file with predicted values.
+Project website url
+Github: https://github.com/AjayBidyarthy/Sven-Meier-XML-tool/tree/master
+Project Video
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+Qualtrics API integration using Python
+Next article
+CRM (Monday.com, Make.com) to Data Warehouse to Klipfolio Dashboard
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

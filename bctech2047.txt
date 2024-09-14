@@ -1,0 +1,62 @@
+Design and develop MLops framework for Data-centric AI
+
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+SaaS, Products
+Organization Size:
+100+
+The Problem
+The task involves finding models and tools for several different tasks across various domains. The tasks include video and image capturing, working with documents such as PDF and Excel files, converting text to audio, audio capturing and transcription, translation to major languages, utilizing language models with a focus on Jina finetuner and its limitations, creative AI for generating pictures and designs, synthesizing language texts, creating Kibana dashboards and data storytelling, code creation for specific platforms like Editorjs and Nextjs, integrating Jina API inference into function blocks in Editorjs/Nextjs, UX/UI creation for the front end of Editorjs and Nextjs, transfer learning and reinforcement learning, utilizing Wikipedia for general knowledge, and utilizing an epistemic model called EPINET. To fulfill this task, you will need to search for relevant models, tools, and resources specific to each task mentioned above.
+Our Solution
+Jina AI Hub to deliver an ecosystem of:
+Core transformer model
+Distilled & Fine tuned models
+OKR:s/KPI:s +domain data = “Book of knowledge” + model = AI agents
+Ensembled models = AI teams
+Also delivered functions in the marketplace
+Voice interface, OpenAI Whisper transformer
+Multiple data types capturing of information (DocArray)
+CLIP model to mesh multiple data types into vectors
+Neural Search function and
+Generative AI function
+Automatic data labelling
+Used weight watcher to fine tune the model quality without CPU/GPU cost
+Solution Architecture
+Automatic selection a model for fine tuning with data corpus (book of knowledge), given the best performance.
+Add the model to an API inference
+Unlike ChatGPT the model can specify when they don’t know and acknowledge it instead of making stuff up with its creative ability.
+When the model knows what it doesn’t know, it can ask to go back and consult other models for joint predictions.
+Add a function to select ensembled models for joint prediction when step 4 occurs.
+Deliverables
+Identify core transformer models
+“Clean” and stabilize selected core models
+Set up the process in Jina Hub
+Integrate FastAPI/Jina with our Jina Hub
+Integrate FastAPI/Argilla/Kibana into our Jina Hub
+Tools used
+Jina Hub/AI, Python, Hugging Face, Argilla, Redis stack, Kibana
+Language/techniques used
+Python
+Models used
+Epistemic Neural Nets, weight watcher, OpenAI Whisper transformer, Epinet
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+NLP-based Approach for Data Transformation
+Next article
+Qualtrics API integration using Python
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

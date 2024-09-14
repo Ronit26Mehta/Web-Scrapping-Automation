@@ -1,0 +1,65 @@
+Design and develop PowerShell script
+
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+SaaS, Products
+Organization Size:
+100+
+The Problem
+Create a PowerShell script for the following:
+check and enable auditing:- client wanted a PowerShell script that checks NTFS Rule is given to a folder or not and adds a rule to it
+configuring winrm for remote windows server:- this client wanted a PowerShell script which helps us to connect to another windows remote server
+check audit of windows/system32 folder and windows/inf folder of remote windows server:- this client wanted a PowerShell script which help us to connect to the remote server and check their  NTFS Rule for windows/system32 and windows/inf folder also we can add rule for those folders
+Our Solution
+check and enable auditing
+for checking and enabling auditing of the file we used  PowerShell NTFSSecurity module
+for checking the audit we used Get-NTFSAudit which is a submodule of NTFSSecurity
+for adding the audit we used Add-NTFSAudit which is a submodule of NTFSSecutiry
+configuring winrm for remote windows server
+For this we created 2 script:
+create script: this help us to create listener and open port 5986 for http as winrm uses port 5986 to connect with windows
+connect script: this help us to connect with remote windows server for this purpose we used Enter-PSSession
+check audit of windows/system32 folder and windows/inf folder of remote windows server
+for this, we created a script that connects to the remote windows server using the Enter-PSSession command and then checks the audit for windows/system32 and windows/inf folder also we can add audit rule to windows/system32 and windows/inf folder from remote servers
+Deliverables
+Powershell script
+Tools used
+VS Code IDE
+Powershell
+Virtual machine
+Language/techniques used
+powershell
+Skills used
+Powershell
+BuProject Snapshots
+Check audit
+Add audit
+Check audit
+Before running create script
+Create script for winrm listner
+List of listeners after running create script
+Connect with remote machine
+When rights are not applied
+When rights are applied
+Project Video
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+Design and develop Jenkins shared library
+Next article
+Data Management – EGEAS
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

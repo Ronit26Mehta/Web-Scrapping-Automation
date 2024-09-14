@@ -1,0 +1,43 @@
+NLP-based Approach for Data Transformation
+
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+SaaS, Products
+Organization Size:
+100+
+The Problem
+Performing Readability and Quality testing on the text corpus from text files
+Our Solution
+The intention was to create a tool/system that can consume text files through a given csv file having a path for all the text files through this csv file our tool should be able to read all files one by one and could perform some tests and analysis on that text data and output the results in a csv format presenting all the metrics.
+In order to achieve this goal we created a Python-based ready-to-use code that will read all text files presented in the given csv files and perform 14 different evaluations on that text data and save the results in a excel and csv based format.
+Solution Architecture
+Deliverables
+The final deliverable was the tool/system/code for processing and evaluation text.
+Language/techniques used
+Python
+Natural Language processing technique used for text evaluation
+Skills used
+Python Programming
+What are the technical Challenges Faced during Project Execution
+The architecture of the solution for this project problem statement was simple, no challenges were faced during the execution of the project.
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+An ETL tool to pull data from Shiphero to Google Bigquery Data Warehouse
+Next article
+Design and develop MLops framework for Data-centric AI
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

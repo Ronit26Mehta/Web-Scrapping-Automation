@@ -1,0 +1,61 @@
+Design and develop retool app for wholecell.io and Asana data using their api’s
+
+Client Background
+Client:
+A leading tech firm in the USA
+Industry Type:
+IT
+Services:
+SaaS, Products
+Organization Size:
+100+
+The Problem
+Create retool app for wholecell.io and Asana data using their api’s
+Our Solution
+We have created two table one table contain data from wholecell.io platform and another table contain data from Assna.
+In that wholecell.io table we are providing:
+Order id
+Order status
+Order channel
+Organization
+Link of the Order
+In Assna Table we are providing following details:
+Id of the task
+Name of the task
+Resource type
+Resource_subtype
+Caller
+Po-id
+As client data from wholecell and Assna was linked client can search the order by PO-id in Assna table
+Deliverables
+App in retool
+Tools used
+Retool
+Language/techniques used
+JavaScript
+Skills used
+Retool
+API integration
+JavaScript
+What are the technical Challenges Faced during Project Execution
+Api was not providing all required details according to the client requirement and there were less options for data pre-processing as retool only javascript
+How the Technical Challenges were Solved
+We had fetched details from one api and provide id to the other api using JavaScript this was done by using javascript promise method
+We also had to do some string manipulation to get data according the client requirement
+Contact Details
+Here are my contact details:
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+For project discussions and daily updates, would you like to use Slack, Skype, Telegram, or Whatsapp? Please recommend, what would work best for you.
+Previous article
+Design and develop a retool app that will show stock and crypto related information using IEX API
+Next article
+Design and develop Jenkins shared library
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development

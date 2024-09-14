@@ -1,0 +1,87 @@
+Streamlined Equity Waterfall Calculation and Deal Management System
+
+Client Background
+Client:
+A leading real estate firm in the USA
+Industry Type:
+Real Estate
+Products & Services:
+Real Estate, Construction, Financing
+Organization Size:
+100+
+The Problem
+Calculating equity waterfalls based on CSV data.
+Implementing different user roles and their permissions.
+Creating a user-friendly dashboard for each user type.
+Managing deal creation, invitations, and subscriptions.
+Handling user invitations and registration.
+Copying deals while preserving specific data.
+Our Solution
+Develop Python code to calculate equity waterfalls.
+Implement role-based access control for admin, sponsors, and investors.
+Create distinct dashboards with relevant data using ReactJS.
+Design intuitive UI for deal management.
+Develop invitation mechanisms and registration flows.
+Implement copying deals with proper data handling.
+Solution Architecture
+Backend built with Django for handling data, authentication, and API endpoints.
+Frontend developed using ReactJS for user interfaces.
+SQLite database for data storage.
+Google Cloud for application deployment.
+Deliverables
+Project Github Source Code :
+Tech Stack
+Tools used
+Pillow
+Requests
+GCP VM
+Language/techniques used
+Python
+React JS
+Models used
+Django ORM
+Skills used
+Python
+Python Django
+Python Django REST Framework
+Databases used
+SQLite3 database
+Web Cloud Servers used
+GCP
+What are the technical Challenges Faced during Project Execution
+Equity waterfall calculations based on dynamic CSV data.
+Managing user permissions and access control.
+Designing and implementing complex user registration and invitation flows.
+Copying deals while maintaining data integrity.
+Ensuring data consistency and security.
+How the Technical Challenges were Solved
+Developed Python scripts to parse CSV files and perform required calculations.
+Utilized Django’s built-in authentication system and implemented role-based permissions.
+Designed clear and user-friendly registration and invitation processes.
+Implemented a controlled deal copying mechanism.
+Conducted thorough testing and used encryption for data security.
+Project website url :
+https://stackshares.io/
+Summarize
+Summarized: https://blackcoffer.com/
+This project was done by the Blackcoffer Team, a Global IT Consulting firm.
+Contact Details
+This solution was designed and developed by Blackcoffer Team
+Here are my contact details:
+Firm Name: Blackcoffer Pvt. Ltd.
+Firm Website: www.blackcoffer.com
+Firm Address: 4/2, E-Extension, Shaym Vihar Phase 1, New Delhi 110043
+Email: ajay@blackcoffer.com
+Skype: asbidyarthy
+WhatsApp: +91 9717367468
+Telegram: @asbidyarthy
+Previous article
+Automated Orthopedic Case Report Generation: Harnessing Web Scraping and AI Integration
+Next article
+Efficient AWS Infrastructure Setup and Management: Addressing Security, Scalability, and Compliance
+Ajay Bidyarthy
+RELATED ARTICLES
+MORE FROM AUTHOR
+Healthcare AI ChatBot using LLAMA, LLM, Langchain
+AI Bot Audio to audio
+Efficient Supply Chain Assessment: Overcoming Technical Hurdles for Web Application Development
