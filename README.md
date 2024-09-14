@@ -1,10 +1,12 @@
+
 ---
 
 # Web Scraping-Based NLP Automation
 
-
 [![License](https://img.shields.io/github/license/your-username/web-scraping-nlp)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/your-username/web-scraping-nlp)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-brightgreen)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -24,29 +26,30 @@
 
 ## About the Project
 
-This project is designed to automate the process of web scraping and then apply **Natural Language Processing (NLP)** techniques on the scraped content. It aims to extract meaningful insights from web content and automate text-based tasks such as **sentiment analysis**, **text summarization**, and **entity recognition**.
+This project automates the process of web scraping and applies **Natural Language Processing (NLP)** techniques on the scraped content. The goal is to extract meaningful insights and automate text-based tasks such as:
+
+- **Sentiment Analysis**
+- **Text Summarization**
+- **Named Entity Recognition (NER)**
 
 ---
 
 ## Features
 
-- **Automated Web Scraping**: Extract data from multiple websites based on predefined URLs or search terms.
-- **NLP Techniques**: 
-  - **Sentiment Analysis**
-  - **Text Summarization**
-  - **Named Entity Recognition (NER)**
-- **Flexible Input/Output**: Supports different input data types, with detailed analysis and structured outputs.
+- **Automated Web Scraping**: Extracts data from multiple websites based on predefined URLs or search terms.
+- **NLP Techniques**: Includes Sentiment Analysis, Text Summarization, and NER.
+- **Flexible Input/Output**: Supports various input types, providing detailed analysis and structured outputs.
 
 ---
 
 ## Directory Structure
 
-```
+```bash
 Web-Scrapping-NLP-Automation/
 ├── MasterDictionary/            # Contains positive and negative word lists
 │   ├── negative-words.txt
 │   └── positive-words.txt
-├── StopWords/                   # Stop word lists for different categories
+├── StopWords/                   # Stopword lists for different categories
 │   ├── StopWords_Auditor.txt
 │   ├── StopWords_Currencies.txt
 │   ├── StopWords_DatesandNumbers.txt
@@ -67,102 +70,104 @@ Web-Scrapping-NLP-Automation/
 
 ### Prerequisites
 
-Ensure you have the following installed on your machine:
+Ensure the following software is installed on your machine:
+
 - **Python 3.7+**
 - **Jupyter Notebook**
 - **pip** (Python package manager)
 
 ### Installing Dependencies
 
-To install the required Python packages, run:
+To install all required Python packages, run:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Running the Project
+---
 
-To run the project, follow these steps:
+## How to Run
 
 1. **Open the Jupyter notebook**:
-    - Run the command:
-    ```bash
-    jupyter notebook main.ipynb
-    ```
-    - The notebook will open in your web browser.
+   - Run the command:
+     ```bash
+     jupyter notebook main.ipynb
+     ```
+   - The notebook will open in your default web browser.
 
-2. **Select the Web Scraping and NLP Options**: 
-   - In the notebook, you can configure scraping options (URLs or keywords) and select the NLP tasks (sentiment analysis, summarization, etc.).
+2. **Select Web Scraping and NLP Options**:
+   - Inside the notebook, configure the web scraping settings (URLs or keywords) and choose which NLP tasks to apply (Sentiment Analysis, Summarization, NER).
 
 ---
 
 ## Input Data
 
-- **MasterDictionary**: Contains lists of positive and negative words for sentiment analysis.
-- **StopWords**: A variety of stopword lists for filtering unnecessary words based on categories such as:
+- **MasterDictionary**: Contains positive and negative word lists used for sentiment analysis.
+- **StopWords**: Includes various stopword lists for filtering unnecessary words. Categories include:
   - Auditor
   - Currencies
   - Dates and Numbers
   - Generic stopwords
-
-- **Processed Files**: Text files representing the data that has been processed by the scraper for NLP tasks.
+- **Processed Files**: Text files containing data that has been processed by the web scraping module.
 
 ---
 
 ## Web Scraping Logic
 
-The web scraping module fetches data from the internet based on predefined URLs or search terms. The content is saved as plain text and stored in the `processed-file/` directory for further NLP analysis.
+The web scraping module extracts data from the internet based on predefined URLs or search terms. The extracted content is cleaned and stored in the `processed-file/` directory for further analysis.
 
-### Steps:
-1. Open URLs or perform searches.
-2. Extract the body content from each webpage.
-3. Save the cleaned text data in the `processed-file/` directory.
+### Web Scraping Steps:
+1. Open predefined URLs or perform keyword searches.
+2. Extract the main content from each page.
+3. Clean and save the scraped text data in the `processed-file/` directory.
 
 ---
 
 ## NLP Automation
 
-The project applies several NLP techniques on the scraped content, including:
+Once the data has been scraped, the following NLP tasks are applied:
 
-1. **Sentiment Analysis**: Analyzes the sentiment of the text (positive, negative, neutral).
-2. **Text Summarization**: Automatically summarizes long pieces of text.
-3. **Named Entity Recognition (NER)**: Identifies and classifies entities (such as people, organizations, locations) mentioned in the text.
+1. **Sentiment Analysis**: Identifies the sentiment (positive, negative, or neutral) of the text.
+2. **Text Summarization**: Condenses long text passages into shorter summaries.
+3. **Named Entity Recognition (NER)**: Detects and classifies key entities, such as people, organizations, and locations.
 
-These NLP tasks are powered by pre-trained models and rule-based techniques.
+The project utilizes pre-trained models and rule-based techniques to implement these NLP tasks.
 
 ---
 
 ## Results and Output
 
-After running the analysis, the results are stored in the `results/` directory. The output files include:
-- Sentiment analysis reports
-- Text summaries
-- NER output, including a list of entities
+After running the project, the results are saved in the `results/` directory. The outputs include:
+
+- **Sentiment Analysis Reports**: Sentiment scores for the scraped data.
+- **Text Summaries**: Summaries of the extracted content.
+- **NER Output**: Lists of recognized entities (e.g., names, locations).
 
 ---
 
 ## Contributing
 
-If you'd like to contribute to this project, feel free to:
-- Fork the repository
-- Create a feature branch (`git checkout -b feature-branch`)
-- Commit your changes (`git commit -m 'Add new feature'`)
-- Push to the branch (`git push origin feature-branch`)
-- Open a Pull Request
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
 ## Contact
 
-For any questions or issues, please reach out to the project maintainers at:
+For any questions or inquiries, feel free to contact the project maintainers:
 
 - **Email**: mehtaronit702@gmail.com
-- **GitHub**: [Your GitHub](https://github.com/Ronit26Mehta/)
+- **GitHub**: [Ronit26Mehta](https://github.com/Ronit26Mehta/)
 
 ---
