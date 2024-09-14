@@ -2,7 +2,6 @@
 
 # Web Scraping-Based NLP Automation
 
-![Project Banner](https://via.placeholder.com/1000x300.png) <!-- Replace with actual banner or logo -->
 
 [![License](https://img.shields.io/github/license/your-username/web-scraping-nlp)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/your-username/web-scraping-nlp)
